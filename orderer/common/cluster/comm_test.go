@@ -9,7 +9,6 @@ package cluster_test
 import (
 	"context"
 	"crypto/rand"
-	"crypto/x509"
 	"fmt"
 	"net"
 	"strings"
@@ -17,6 +16,8 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/common/crypto"

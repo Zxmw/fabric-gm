@@ -10,11 +10,12 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"net/http"
 	"syscall"
 	"time"
 
-	"github.com/fsouza/go-dockerclient"
+	"github.com/studyzy/net/http"
+
+	docker "github.com/fsouza/go-dockerclient"
 	"github.com/hyperledger/fabric/integration/runner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

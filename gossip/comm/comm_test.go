@@ -10,8 +10,6 @@ import (
 	"bytes"
 	"context"
 	"crypto/hmac"
-	"crypto/sha256"
-	"crypto/tls"
 	"errors"
 	"fmt"
 	"io"
@@ -22,6 +20,10 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric/bccsp/factory"
 	"github.com/hyperledger/fabric/common/flogging"

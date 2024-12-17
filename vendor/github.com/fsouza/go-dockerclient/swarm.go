@@ -8,9 +8,10 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/docker/docker/api/types/swarm"
 )

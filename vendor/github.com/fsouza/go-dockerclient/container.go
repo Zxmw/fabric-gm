@@ -10,11 +10,12 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/docker/go-units"
 )

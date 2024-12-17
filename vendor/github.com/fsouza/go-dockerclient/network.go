@@ -9,8 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"net/http"
 	"net/url"
+
+	"github.com/studyzy/net/http"
 )
 
 // ErrNetworkAlreadyExists is the error returned by CreateNetwork when the

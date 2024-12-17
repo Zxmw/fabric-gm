@@ -8,8 +8,9 @@ import (
 	"context"
 	"encoding/json"
 	"io"
-	"net/http"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/docker/docker/api/types/swarm"
 )

@@ -6,13 +6,17 @@ SPDX-License-Identifier: Apache-2.0
 package handlers_test
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/sha256"
-	"crypto/x509"
 	"encoding/pem"
 	"math/big"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
 

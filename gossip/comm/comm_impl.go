@@ -9,13 +9,14 @@ package comm
 import (
 	"bytes"
 	"context"
-	"crypto/tls"
 	"encoding/hex"
 	"fmt"
 	"reflect"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/hyperledger/fabric/gossip/api"
 	"github.com/hyperledger/fabric/gossip/common"

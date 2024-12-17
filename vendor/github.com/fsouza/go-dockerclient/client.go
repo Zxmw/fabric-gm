@@ -11,16 +11,12 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
-	"net/http/httputil"
 	"net/url"
 	"os"
 	"path/filepath"
@@ -30,6 +26,14 @@ import (
 	"strings"
 	"sync/atomic"
 	"time"
+
+	"github.com/studyzy/net/http/httputil"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/docker/docker/opts"
 	"github.com/docker/docker/pkg/homedir"

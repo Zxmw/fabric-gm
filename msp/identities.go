@@ -7,13 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"crypto"
 	"crypto/rand"
-	"crypto/x509"
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
 	"time"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/bccsp"

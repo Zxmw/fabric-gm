@@ -12,11 +12,12 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net/http"
 	"net/url"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
 )
 
 // APIImages represent an image returned in the ListImages call.

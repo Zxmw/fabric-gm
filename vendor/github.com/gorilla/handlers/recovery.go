@@ -2,8 +2,9 @@ package handlers
 
 import (
 	"log"
-	"net/http"
 	"runtime/debug"
+
+	"github.com/studyzy/net/http"
 )
 
 // RecoveryHandlerLogger is an interface used by the recovering handler to print logs.
@@ -19,7 +20,7 @@ type recoveryHandler struct {
 
 // RecoveryOption provides a functional approach to define
 // configuration for a handler; such as setting the logging
-// whether or not to print strack traces on panic.
+// whether or not to print stack traces on panic.
 type RecoveryOption func(http.Handler)
 
 func parseRecoveryOptions(h http.Handler, opts ...RecoveryOption) http.Handler {
@@ -86,6 +87,11 @@ func (h recoveryHandler) log(v ...interface{}) {
 	}
 
 	if h.printStack {
-		debug.PrintStack()
+		stack := string(debug.Stack())
+		if h.logger != nil {
+			h.logger.Println(stack)
+		} else {
+			log.Println(stack)
+		}
 	}
 }

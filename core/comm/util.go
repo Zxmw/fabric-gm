@@ -9,9 +9,10 @@ package comm
 import (
 	"bytes"
 	"context"
-	"crypto/sha256"
-	"crypto/x509"
 	"encoding/pem"
+
+	"github.com/studyzy/crypto/sha256"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"

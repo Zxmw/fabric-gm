@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package server_test
 
 import (
-	"crypto/sha256"
 	"time"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"

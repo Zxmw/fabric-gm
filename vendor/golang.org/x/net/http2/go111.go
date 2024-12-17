@@ -2,23 +2,28 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build go1.11
 // +build go1.11
 
 package http2
 
-import "net/textproto"
+import (
+	"net/textproto"
 
-func traceHasWroteHeaderField(trace *clientTrace) bool {
+	"github.com/studyzy/net/http/httptrace"
+)
+
+func traceHasWroteHeaderField(trace *httptrace.ClientTrace) bool {
 	return trace != nil && trace.WroteHeaderField != nil
 }
 
-func traceWroteHeaderField(trace *clientTrace, k, v string) {
+func traceWroteHeaderField(trace *httptrace.ClientTrace, k, v string) {
 	if trace != nil && trace.WroteHeaderField != nil {
 		trace.WroteHeaderField(k, []string{v})
 	}
 }
 
-func traceGot1xxResponseFunc(trace *clientTrace) func(int, textproto.MIMEHeader) error {
+func traceGot1xxResponseFunc(trace *httptrace.ClientTrace) func(int, textproto.MIMEHeader) error {
 	if trace != nil {
 		return trace.Got1xxResponse
 	}

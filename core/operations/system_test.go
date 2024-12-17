@@ -13,11 +13,12 @@ import (
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"os"
 	"path/filepath"
 	"syscall"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-lib-go/healthz"
 	"github.com/hyperledger/fabric/common/metrics/disabled"

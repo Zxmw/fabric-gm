@@ -17,14 +17,18 @@ limitations under the License.
 package sw
 
 import (
-	"crypto"
 	"crypto/rand"
-	"crypto/rsa"
-	"crypto/sha256"
-	"crypto/x509"
 	"encoding/asn1"
 	"strings"
 	"testing"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/stretchr/testify/assert"

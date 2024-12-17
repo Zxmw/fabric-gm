@@ -6,14 +6,17 @@ SPDX-License-Identifier: Apache-2.0
 package csp
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/x509"
 	"encoding/pem"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/bccsp/factory"

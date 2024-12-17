@@ -10,9 +10,10 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/studyzy/net/http"
 )
 
 // Exec is the type representing a `docker exec` instance and containing the

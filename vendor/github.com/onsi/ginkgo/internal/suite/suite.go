@@ -2,8 +2,9 @@ package suite
 
 import (
 	"math/rand"
-	"net/http"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/onsi/ginkgo/internal/spec_iterator"
 
@@ -173,6 +174,13 @@ func (suite *Suite) PushJustBeforeEachNode(body interface{}, codeLocation types.
 		suite.failer.Fail("You may only call JustBeforeEach from within a Describe, Context or When", codeLocation)
 	}
 	suite.currentContainer.PushSetupNode(leafnodes.NewJustBeforeEachNode(body, codeLocation, timeout, suite.failer, suite.containerIndex))
+}
+
+func (suite *Suite) PushJustAfterEachNode(body interface{}, codeLocation types.CodeLocation, timeout time.Duration) {
+	if suite.running {
+		suite.failer.Fail("You may only call JustAfterEach from within a Describe or Context", codeLocation)
+	}
+	suite.currentContainer.PushSetupNode(leafnodes.NewJustAfterEachNode(body, codeLocation, timeout, suite.failer, suite.containerIndex))
 }
 
 func (suite *Suite) PushAfterEachNode(body interface{}, codeLocation types.CodeLocation, timeout time.Duration) {

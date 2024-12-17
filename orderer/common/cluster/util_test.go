@@ -8,7 +8,6 @@ package cluster_test
 
 import (
 	"bytes"
-	"crypto/x509"
 	"encoding/pem"
 	"errors"
 	"io/ioutil"
@@ -16,6 +15,8 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/common/capabilities"

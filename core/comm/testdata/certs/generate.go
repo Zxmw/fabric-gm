@@ -1,3 +1,6 @@
+//go:build ignore
+// +build ignore
+
 /*
 Copyright IBM Corp. 2016 All Rights Reserved.
 
@@ -14,18 +17,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// +build ignore
-
 //go:generate -command gencerts go run $GOPATH/src/github.com/hyperledger/fabric/core/comm/testdata/certs/generate.go
 //go:generate gencerts -orgs 2 -child-orgs 2 -servers 2 -clients 2
 
 package main
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
 	"flag"
@@ -34,6 +32,12 @@ import (
 	"net"
 	"os"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 )
 
 //command line flags

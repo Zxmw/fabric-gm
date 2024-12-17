@@ -8,8 +8,9 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"net/http"
 	"time"
+
+	"github.com/studyzy/net/http"
 )
 
 var (

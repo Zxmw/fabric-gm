@@ -15,10 +15,11 @@ package promhttp
 
 import (
 	"errors"
-	"net/http"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	dto "github.com/prometheus/client_model/go"
 

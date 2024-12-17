@@ -8,10 +8,11 @@ package etcdraft
 
 import (
 	"context"
-	"crypto/sha256"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"code.cloudfoundry.org/clock"
 	"github.com/golang/protobuf/proto"

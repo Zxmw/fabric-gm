@@ -17,10 +17,11 @@ limitations under the License.
 package sw
 
 import (
-	"crypto/elliptic"
 	"errors"
 	"reflect"
 	"testing"
+
+	"github.com/studyzy/crypto/elliptic"
 
 	mocks2 "github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/hyperledger/fabric/bccsp/sw/mocks"

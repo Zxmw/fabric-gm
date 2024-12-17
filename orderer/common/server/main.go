@@ -12,12 +12,14 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
-	_ "net/http/pprof" // This is essentially the main package for the orderer
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	_ "github.com/studyzy/net/http/pprof" // This is essentially the main package for the orderer
+
+	"github.com/studyzy/net/http"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-lib-go/healthz"

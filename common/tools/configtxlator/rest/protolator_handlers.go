@@ -20,8 +20,9 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"reflect"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/mux"

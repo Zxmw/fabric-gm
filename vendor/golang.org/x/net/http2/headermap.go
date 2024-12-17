@@ -5,9 +5,10 @@
 package http2
 
 import (
-	"net/http"
 	"strings"
 	"sync"
+
+	"github.com/studyzy/net/http"
 )
 
 var (

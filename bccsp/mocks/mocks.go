@@ -18,10 +18,11 @@ package mocks
 
 import (
 	"bytes"
-	"crypto"
 	"errors"
 	"hash"
 	"reflect"
+
+	"github.com/studyzy/crypto"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

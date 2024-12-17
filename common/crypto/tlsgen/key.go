@@ -7,17 +7,21 @@ SPDX-License-Identifier: Apache-2.0
 package tlsgen
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/base64"
 	"encoding/pem"
 	"math/big"
 	"net"
 	"time"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 )
 
 func (p *CertKeyPair) PrivKeyString() string {

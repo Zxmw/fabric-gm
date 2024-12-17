@@ -2,9 +2,10 @@ package ioutils // import "github.com/docker/docker/pkg/ioutils"
 
 import (
 	"context"
-	"crypto/sha256"
 	"encoding/hex"
 	"io"
+
+	"github.com/studyzy/crypto/sha256"
 )
 
 // ReadCloserWrapper wraps an io.Reader, and implements an io.ReadCloser

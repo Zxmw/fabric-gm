@@ -9,9 +9,7 @@ package test
 import (
 	"bytes"
 	"context"
-	"crypto/ecdsa"
 	"crypto/rand"
-	"crypto/x509"
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
@@ -22,6 +20,10 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/golang/protobuf/proto"
 	bccsp "github.com/hyperledger/fabric/bccsp/utils"

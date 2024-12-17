@@ -7,9 +7,11 @@
 package http2
 
 import (
-	"crypto/tls"
-	"net/http"
 	"sync"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.
@@ -107,6 +109,7 @@ func (p *clientConnPool) getClientConn(req *http.Request, addr string, dialOnMis
 
 // dialCall is an in-flight Transport dial call to a host.
 type dialCall struct {
+	_    incomparable
 	p    *clientConnPool
 	done chan struct{} // closed when done
 	res  *ClientConn   // valid after done is closed
@@ -180,6 +183,7 @@ func (p *clientConnPool) addConnIfNeeded(key string, t *Transport, c *tls.Conn) 
 }
 
 type addConnCall struct {
+	_    incomparable
 	p    *clientConnPool
 	done chan struct{} // closed when done
 	err  error
@@ -198,12 +202,6 @@ func (c *addConnCall) run(t *Transport, key string, tc *tls.Conn) {
 	delete(p.addConnCalls, key)
 	p.mu.Unlock()
 	close(c.done)
-}
-
-func (p *clientConnPool) addConn(key string, cc *ClientConn) {
-	p.mu.Lock()
-	p.addConnLocked(key, cc)
-	p.mu.Unlock()
 }
 
 // p.mu must be held

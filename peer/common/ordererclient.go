@@ -7,8 +7,9 @@ package common
 
 import (
 	"context"
-	"crypto/tls"
 	"fmt"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/hyperledger/fabric/core/comm"
 	ab "github.com/hyperledger/fabric/protos/orderer"

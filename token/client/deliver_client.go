@@ -7,9 +7,10 @@ package client
 
 import (
 	"context"
-	"crypto/tls"
 	"fmt"
 	"math"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/bccsp"

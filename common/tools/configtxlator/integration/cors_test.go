@@ -9,10 +9,11 @@ package integration_test
 import (
 	"fmt"
 	"io"
-	"net/http"
 	"os/exec"
 	"regexp"
 	"syscall"
+
+	"github.com/studyzy/net/http"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

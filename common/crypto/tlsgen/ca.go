@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package tlsgen
 
 import (
-	"crypto"
-	"crypto/x509"
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
 )
 
 // CertKeyPair denotes a TLS certificate and corresponding key,

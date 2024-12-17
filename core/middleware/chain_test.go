@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package middleware_test
 
 import (
-	"net/http"
-	"net/http/httptest"
+	"github.com/studyzy/net/http/httptest"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric/core/middleware"
 	. "github.com/onsi/ginkgo"

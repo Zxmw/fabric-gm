@@ -10,13 +10,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"net/http"
 	"net/url"
 	"os"
 	"strings"
 	"testing"
 	"time"
 	"unicode/utf8"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/hyperledger/fabric/common/metrics/disabled"

@@ -1,3 +1,4 @@
+//go:build pkcs11
 // +build pkcs11
 
 /*
@@ -8,12 +9,14 @@ SPDX-License-Identifier: Apache-2.0
 package pkcs11
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"encoding/asn1"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/miekg/pkcs11"

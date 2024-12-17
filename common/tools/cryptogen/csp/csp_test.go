@@ -6,12 +6,13 @@ SPDX-License-Identifier: Apache-2.0
 package csp_test
 
 import (
-	"crypto/ecdsa"
 	"encoding/hex"
 	"errors"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"

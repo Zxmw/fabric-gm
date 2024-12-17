@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package cluster
 
 import (
-	"crypto/x509"
 	"sync"
 	"sync/atomic"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric/common/crypto"
 	"github.com/hyperledger/fabric/common/metrics"

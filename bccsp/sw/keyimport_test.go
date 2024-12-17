@@ -18,11 +18,13 @@ package sw
 
 import (
 	"crypto/rand"
-	"crypto/rsa"
-	"crypto/x509"
 	"errors"
 	"reflect"
 	"testing"
+
+	"github.com/studyzy/crypto/rsa"
+
+	"github.com/studyzy/crypto/x509"
 
 	mocks2 "github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/hyperledger/fabric/bccsp/sw/mocks"

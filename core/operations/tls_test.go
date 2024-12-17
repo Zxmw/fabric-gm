@@ -7,11 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package operations_test
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"io/ioutil"
 	"os"
 	"path/filepath"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric/core/operations"
 	. "github.com/onsi/ginkgo"

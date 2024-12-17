@@ -11,11 +11,12 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"net/http"
 	"os"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/pkg/errors"

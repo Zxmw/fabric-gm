@@ -8,8 +8,9 @@ import (
 	"bytes"
 	"fmt"
 	"log"
-	"net/http"
 	"net/url"
+
+	"github.com/studyzy/net/http"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
@@ -329,7 +330,7 @@ func (wu writeWindowUpdate) writeFrame(ctx writeContext) error {
 }
 
 // encodeHeaders encodes an http.Header. If keys is not nil, then (k, h[k])
-// is encoded only only if k is in keys.
+// is encoded only if k is in keys.
 func encodeHeaders(enc *hpack.Encoder, h http.Header, keys []string) {
 	if keys == nil {
 		sorter := sorterPool.Get().(*sorter)

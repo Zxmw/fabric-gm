@@ -8,8 +8,6 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"crypto/ecdsa"
-	"crypto/x509"
 	"encoding/asn1"
 	"encoding/hex"
 	"encoding/pem"
@@ -21,6 +19,10 @@ import (
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/bccsp"
