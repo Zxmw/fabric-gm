@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-GOTOOLS = golint goimports protoc-gen-go ginkgo gocov-xml misspell counterfeiter gocov mockery manifest-tool
+GOTOOLS = golint goimports protoc-gen-go ginkgo gocov-xml misspell # counterfeiter gocov mockery manifest-tool
 BUILD_DIR ?= .build
 GOTOOLS_GOPATH ?= $(BUILD_DIR)/gotools
 GOTOOLS_BINDIR ?= $(GOPATH)/bin
@@ -54,6 +54,12 @@ gotool.dep:
 	@GOPATH=$(abspath $(GOTOOLS_GOPATH)) GOBIN=$(abspath $(GOTOOLS_BINDIR)) go install -ldflags="-X main.version=$(DEP_VERSION) -X main.buildDate=$$(date '+%Y-%m-%d')" github.com/golang/dep/cmd/dep
 	@git -C $(abspath $(GOTOOLS_GOPATH))/src/github.com/golang/dep checkout -q master
 
+gotool.counterfeiter: DEP_VERSION ?= "v6.2.3"
+gotool.counterfeiter:
+	@echo "Building github.com/maxbrunsfeld/counterfeiter $(DEP_VERSION) -> counterfeiter"
+	@GOPATH=$(abspath $(GOTOOLS_GOPATH)) GO111MODULE=off go get -d -u github.com/maxbrunsfeld/counterfeiter
+	@git -C $(abspath $(GOTOOLS_GOPATH))/src/github.com/maxbrunsfeld/counterfeiter checkout -q $(DEP_VERSION)
+	@GOPATH=$(abspath $(GOTOOLS_GOPATH)) GOBIN=$(abspath $(GOTOOLS_BINDIR)) go install github.com/maxbrunsfeld/counterfeiter
 # Default rule for gotools uses the name->path map for a generic 'go get' style build
 gotool.%:
 	$(eval TOOL = ${subst gotool.,,${@}})

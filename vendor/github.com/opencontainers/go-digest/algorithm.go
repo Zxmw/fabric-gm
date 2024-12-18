@@ -15,11 +15,12 @@
 package digest
 
 import (
-	"crypto"
 	"fmt"
 	"hash"
 	"io"
 	"regexp"
+
+	"github.com/studyzy/crypto"
 )
 
 // Algorithm identifies and implementation of a digester by an identifier.
