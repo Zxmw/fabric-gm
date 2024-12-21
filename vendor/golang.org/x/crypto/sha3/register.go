@@ -7,7 +7,7 @@
 
 package sha3
 
-import "github.com/studyzy/crypto"
+import "github.com/chenjz24/crypto"
 
 func init() {
 	crypto.RegisterHash(crypto.SHA3_224, New224)

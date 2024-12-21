@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/hyperledger/fabric/bccsp/factory"
 	"github.com/hyperledger/fabric/common/channelconfig"

@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/bccsp/factory"

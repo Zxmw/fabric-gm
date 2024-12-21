@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/rcrowley/go-metrics"
 )

@@ -11,8 +11,8 @@ import (
 	"context"
 	"encoding/pem"
 
-	"github.com/studyzy/crypto/sha256"
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/sha256"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"

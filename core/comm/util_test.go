@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/core/comm"

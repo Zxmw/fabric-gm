@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/common/tools/configtxlator/sanitycheck"

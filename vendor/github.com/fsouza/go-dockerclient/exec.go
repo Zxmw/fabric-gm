@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // Exec is the type representing a `docker exec` instance and containing the

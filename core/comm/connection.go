@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/hyperledger/fabric/core/config"

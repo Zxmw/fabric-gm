@@ -9,7 +9,7 @@ package msp
 import (
 	"testing"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/hyperledger/fabric/protos/msp"
 

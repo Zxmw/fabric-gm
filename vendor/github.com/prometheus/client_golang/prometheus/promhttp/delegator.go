@@ -18,7 +18,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 const (

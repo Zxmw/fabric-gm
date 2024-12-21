@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"github.com/hyperledger/fabric/core/comm"
 	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"

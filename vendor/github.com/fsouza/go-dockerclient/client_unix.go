@@ -11,7 +11,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // initializeNativeClient initializes the native Unix domain socket client on

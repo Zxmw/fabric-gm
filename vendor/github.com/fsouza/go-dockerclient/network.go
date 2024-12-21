@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // ErrNetworkAlreadyExists is the error returned by CreateNetwork when the

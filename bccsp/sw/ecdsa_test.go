@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"

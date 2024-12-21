@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/felixge/httpsnoop"
 )

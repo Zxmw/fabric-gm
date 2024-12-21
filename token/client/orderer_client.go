@@ -11,7 +11,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/hyperledger/fabric/core/comm"
 	"github.com/hyperledger/fabric/protos/common"

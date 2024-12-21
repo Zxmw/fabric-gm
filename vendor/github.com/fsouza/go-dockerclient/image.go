@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // APIImages represent an image returned in the ListImages call.

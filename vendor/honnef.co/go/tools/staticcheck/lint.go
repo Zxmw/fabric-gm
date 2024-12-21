@@ -17,7 +17,7 @@ import (
 	texttemplate "text/template"
 	"unicode"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	. "honnef.co/go/tools/arg"
 	"honnef.co/go/tools/deprecated"

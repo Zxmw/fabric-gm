@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // PluginPrivilege represents a privilege for a plugin.

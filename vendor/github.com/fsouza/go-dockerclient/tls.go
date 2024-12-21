@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 )
 
 type tlsClientCon struct {

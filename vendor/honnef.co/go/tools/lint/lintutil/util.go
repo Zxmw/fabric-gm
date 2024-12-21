@@ -24,7 +24,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"honnef.co/go/tools/config"
 	"honnef.co/go/tools/internal/cache"

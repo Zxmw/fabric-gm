@@ -18,7 +18,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric-lib-go/healthz"
 	"github.com/hyperledger/fabric/common/metrics/disabled"

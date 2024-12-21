@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/hyperledger/fabric/peer/common"
 	"github.com/spf13/viper"

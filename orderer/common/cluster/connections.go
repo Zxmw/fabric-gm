@@ -10,7 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/hyperledger/fabric/common/crypto"
 	"github.com/hyperledger/fabric/common/metrics"

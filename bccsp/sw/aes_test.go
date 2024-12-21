@@ -23,7 +23,7 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/studyzy/crypto/aes"
+	"github.com/chenjz24/crypto/aes"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/bccsp/mocks"

@@ -19,7 +19,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 const maxEventsPerLog = 100

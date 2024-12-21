@@ -13,6 +13,7 @@ tags
 .tags
 .vagrant/
 /.build
+/.build_old
 build/
 /release/darwin-amd64
 /release/linux-amd64

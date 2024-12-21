@@ -24,15 +24,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 
 	"github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric/bccsp/signer"

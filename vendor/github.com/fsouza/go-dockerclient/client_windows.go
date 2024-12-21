@@ -12,7 +12,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/Microsoft/go-winio"
 )

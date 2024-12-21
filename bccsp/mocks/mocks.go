@@ -22,7 +22,7 @@ import (
 	"hash"
 	"reflect"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

@@ -9,7 +9,7 @@ package kafka
 import (
 	"testing"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
 	"github.com/Shopify/sarama"
 	localconfig "github.com/hyperledger/fabric/orderer/common/localconfig"

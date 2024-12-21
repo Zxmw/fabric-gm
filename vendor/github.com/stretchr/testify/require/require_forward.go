@@ -9,8 +9,8 @@ import (
 	url "net/url"
 	time "time"
 
+	http "github.com/chenjz24/net/http"
 	assert "github.com/stretchr/testify/assert"
-	http "github.com/studyzy/net/http"
 )
 
 // Condition uses a Comparison to assert a complex condition.

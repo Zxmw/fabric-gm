@@ -28,9 +28,9 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/studyzy/net/http/httputil"
+	"github.com/chenjz24/net/http/httputil"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 const proxyAuthHeaderKey = "Proxy-Authorization"

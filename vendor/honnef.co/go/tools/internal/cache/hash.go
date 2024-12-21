@@ -12,7 +12,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 )
 
 var debugHash = false // set when GODEBUG=gocachehash=1

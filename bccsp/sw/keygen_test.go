@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
 	mocks2 "github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/hyperledger/fabric/bccsp/sw/mocks"

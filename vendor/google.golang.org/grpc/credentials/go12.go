@@ -21,7 +21,7 @@
 
 package credentials
 
-import "github.com/studyzy/crypto/tls"
+import "github.com/chenjz24/crypto/tls"
 
 // This init function adds cipher suite constants only defined in Go 1.12.
 func init() {

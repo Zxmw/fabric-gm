@@ -10,7 +10,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"

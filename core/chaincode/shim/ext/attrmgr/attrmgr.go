@@ -27,7 +27,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/protos/msp"

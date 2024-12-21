@@ -1130,7 +1130,7 @@ func generateNewCertsForPeer(network *nwo.Network, tempCryptoDir string, peer *n
 	By("copying the new Admin user cert to the original user certs dir as Admin2")
 	oldAdminUserPath := filepath.Join(
 		network.RootDir,
-		"github.com/studyzy/crypto",
+		"github.com/chenjz24/crypto",
 		"peerOrganizations",
 		org.Domain,
 		"users",

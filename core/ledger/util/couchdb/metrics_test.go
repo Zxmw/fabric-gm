@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric/common/metrics/disabled"
 	"github.com/hyperledger/fabric/common/metrics/metricsfakes"

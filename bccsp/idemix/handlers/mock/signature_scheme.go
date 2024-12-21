@@ -2,7 +2,7 @@
 package mock
 
 import (
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 	"sync"
 
 	"github.com/hyperledger/fabric/bccsp"

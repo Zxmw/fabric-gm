@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/hyperledger/fabric/integration/runner"

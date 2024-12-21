@@ -2,7 +2,7 @@
 package fakes
 
 import (
-	http "github.com/studyzy/net/http"
+	http "github.com/chenjz24/net/http"
 	sync "sync"
 )
 

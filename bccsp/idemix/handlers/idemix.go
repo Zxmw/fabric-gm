@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 package handlers
 
 import (
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp"
 )

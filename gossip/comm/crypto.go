@@ -12,13 +12,13 @@ import (
 	"encoding/pem"
 	"math/big"
 
-	"github.com/studyzy/crypto/tls"
+	"github.com/chenjz24/crypto/tls"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/common/util"
 	"google.golang.org/grpc/credentials"

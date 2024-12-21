@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/docker/docker/api/types/swarm"
 )

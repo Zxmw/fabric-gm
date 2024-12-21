@@ -20,9 +20,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/hyperledger/fabric/bccsp/utils"

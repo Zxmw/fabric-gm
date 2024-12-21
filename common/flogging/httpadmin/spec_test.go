@@ -10,9 +10,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/hyperledger/fabric/common/flogging/httpadmin"

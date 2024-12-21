@@ -22,9 +22,9 @@ import (
 	"mime/multipart"
 	"testing"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric/common/tools/configtxlator/sanitycheck"
 	cb "github.com/hyperledger/fabric/protos/common"

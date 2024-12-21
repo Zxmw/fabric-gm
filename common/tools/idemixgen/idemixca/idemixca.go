@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package idemixca
 
 import (
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"

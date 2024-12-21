@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	_ "github.com/studyzy/net/http/pprof"
+	_ "github.com/chenjz24/net/http/pprof"
 
 	"github.com/hyperledger/fabric/peer/chaincode"
 	"github.com/hyperledger/fabric/peer/channel"

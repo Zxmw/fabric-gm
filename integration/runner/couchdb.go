@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/pkg/errors"

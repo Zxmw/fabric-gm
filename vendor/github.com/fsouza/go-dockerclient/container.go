@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/docker/go-units"
 )

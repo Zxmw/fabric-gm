@@ -114,11 +114,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/studyzy/net/http/httputil"
+	"github.com/chenjz24/net/http/httputil"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	. "github.com/onsi/gomega"
 )

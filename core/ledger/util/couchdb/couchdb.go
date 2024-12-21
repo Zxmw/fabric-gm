@@ -25,9 +25,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/studyzy/net/http/httputil"
+	"github.com/chenjz24/net/http/httputil"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"

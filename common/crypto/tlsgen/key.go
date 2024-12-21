@@ -15,13 +15,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
-	"github.com/studyzy/crypto/elliptic"
+	"github.com/chenjz24/crypto/elliptic"
 
-	"github.com/studyzy/crypto/ecdsa"
+	"github.com/chenjz24/crypto/ecdsa"
 )
 
 func (p *CertKeyPair) PrivKeyString() string {

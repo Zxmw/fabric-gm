@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/studyzy/crypto/rsa"
+	"github.com/chenjz24/crypto/rsa"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	mocks2 "github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/hyperledger/fabric/bccsp/sw/mocks"

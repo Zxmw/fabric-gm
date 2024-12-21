@@ -13,9 +13,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/bccsp"

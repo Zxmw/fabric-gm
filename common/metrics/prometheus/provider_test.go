@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/studyzy/net/http/httptest"
+	"github.com/chenjz24/net/http/httptest"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	commonmetrics "github.com/hyperledger/fabric/common/metrics"
 	"github.com/hyperledger/fabric/common/metrics/prometheus"

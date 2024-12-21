@@ -10,6 +10,8 @@ require (
 	github.com/Shopify/sarama v1.19.0
 	github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect
+	github.com/chenjz24/crypto v0.0.0-20241221093948-3efdd36affe8
+	github.com/chenjz24/net v0.0.0-20241221094411-9a5da668a47e
 	github.com/containerd/continuity v0.0.0-20181003075958-be9bd761db19 // indirect
 	github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea // indirect
 	github.com/davecgh/go-spew v1.1.1
@@ -48,8 +50,6 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/spf13/viper v0.0.0-20150908122457-1967d93db724
 	github.com/stretchr/testify v1.4.0
-	github.com/studyzy/crypto v0.0.0-20201025151115-27e67ee9d143
-	github.com/studyzy/net v0.0.0-20201020014349-89230b9445e0
 	github.com/sykesm/zap-logfmt v0.0.1
 	github.com/syndtr/goleveldb v0.0.0-20180815032940-ae2bd5eed72d
 	github.com/tedsuo/ifrit v0.0.0-20180802180643-bea94bb476cc

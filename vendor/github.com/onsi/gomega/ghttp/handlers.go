@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 
 	"github.com/golang/protobuf/proto"
 	. "github.com/onsi/gomega"

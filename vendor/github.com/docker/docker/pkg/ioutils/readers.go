@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/studyzy/crypto/sha256"
+	"github.com/chenjz24/crypto/sha256"
 )
 
 // ReadCloserWrapper wraps an io.Reader, and implements an io.ReadCloser

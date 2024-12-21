@@ -20,7 +20,7 @@ import (
 	"io"
 	"regexp"
 
-	"github.com/studyzy/crypto"
+	"github.com/chenjz24/crypto"
 )
 
 // Algorithm identifies and implementation of a digester by an identifier.

@@ -18,7 +18,7 @@ package attrmgr_test
 import (
 	"testing"
 
-	"github.com/studyzy/crypto/x509"
+	"github.com/chenjz24/crypto/x509"
 
 	"github.com/hyperledger/fabric/common/attrmgr"
 	"github.com/stretchr/testify/assert"

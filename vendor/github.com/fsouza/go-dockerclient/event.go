@@ -15,9 +15,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/studyzy/net/http/httputil"
+	"github.com/chenjz24/net/http/httputil"
 
-	"github.com/studyzy/net/http"
+	"github.com/chenjz24/net/http"
 )
 
 // APIEvents represents events coming from the Docker API
