@@ -9,9 +9,8 @@ require (
 	github.com/golang/mock v1.1.1
 	github.com/golang/protobuf v1.3.2
 	github.com/google/go-cmp v0.2.0
-	github.com/studyzy/crypto v0.0.0-20201025151115-27e67ee9d143
-	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
+	golang.org/x/net v0.0.0-20190311183353-d8887717615a
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
-	golang.org/x/sys v0.0.0-20190412213103-97732733099d
+	golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 )
